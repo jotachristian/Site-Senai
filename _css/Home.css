@@ -13,6 +13,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #eff2fa;
     max-width: 1366px;
+    overflow-x: hidden;
 }
 
 .menu-top {
@@ -169,8 +170,8 @@ input#circulo05:checked ~ .s1 {
 
 .teste-botao {
     position: absolute;
-    margin-left: 60px;
-    margin-top: 40%;
+    margin-left: 50px;
+    margin-top: 41%;
     background-color: #051a59;
     color: #fff;
     font-family: Roboto;
@@ -185,6 +186,67 @@ input#circulo05:checked ~ .s1 {
 
 .teste-botao:hover {
     background-color: #ff3131;
+}
+
+.teste-botao-3 {
+    position: absolute;
+    margin-left: 36px;
+    margin-top: 41%;
+    background-color: #2596be;
+    color: #fff;
+    font-family: Roboto;
+    font-size: larger;
+    text-decoration: none;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.teste-botao-3:hover {
+    background-color: #3f3e3ec7;
+}
+
+.teste-botao-4 {
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 35%;
+    background-color: #b21a2e;
+    color: #fff;
+    font-family: Roboto;
+    font-size: larger;
+    text-decoration: none;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.teste-botao-4:hover {
+    background-color: #4b4c50;
+}
+
+.teste-botao-5 {
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 32%;
+    background-color: #445e04;
+    color: #fff;
+    font-family: Roboto;
+    font-size: larger;
+    text-decoration: none;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0%;
+    border-radius: 25px;
+}
+
+.teste-botao-5:hover {
+    background-color: #5a4232;
 }
 
 section {
