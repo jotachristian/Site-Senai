@@ -1,5 +1,31 @@
 @charset "utf-8";
 
+
+@media screen and (max-width: 1244px){
+    .menu-top2{
+        display: none;
+    }
+
+    .img-top {
+        width: 500px;
+    }
+    .imagens-header {
+        width: 50%;
+        margin: 5px;
+    }
+
+    .teste-h1{
+        padding-top: 450px;
+    }
+
+    .s1{
+        flex-direction: column;
+        margin-top: 53px;
+    }
+   
+
+}
+
 @font-face {
     font-family: Roboto;
     src: url('../_fonts/static/RobotoCondensed-Regular.ttf');
@@ -160,7 +186,7 @@ input#circulo05:checked ~ .s1 {
     margin-left: -80%;
 }
 
-#teste-h1 {
+.teste-h1 {
     margin-top: 55%;
     margin-left: 44%;
     text-align: center;
@@ -265,8 +291,8 @@ section .s1 {
     margin-left: 25px;
     margin-top: 68px;
     width: 330px;
-    height: 300px;
-    padding-left: 45px;
+    height: 299px;
+    padding-left: 30px;
     padding-top: 40px;
     padding-right: 15px;
 }
@@ -322,12 +348,13 @@ section .s1 {
     margin-top: 50px;
     position: absolute;
     border: solid #051a59;
-    margin-left: 950px;
+    margin-left: 930px;
     margin-top: 68px;
     width: 330px;
-    height: 298px;
-    padding-left: 35px;
+    height: 299px;
+    padding-left: 45px;
     padding-top: 40px;
+    padding-right: 25px;
 }
 
 #img-n3{
@@ -349,7 +376,7 @@ section .s1 {
 
 .cursos-home {
     margin-top: 20%;
-    margin-right: 36px;
+    margin-right: 3px;
     margin-bottom: 7px;
     text-align: center;
     color: #051a59;
@@ -357,14 +384,14 @@ section .s1 {
 }
 
 #seta-home {
-    margin-left: 46%;
+    margin-left: 47.2%;
     width: 70px;
     height: 70px;
-    margin-bottom: 15%;
+    margin-bottom: 15%;margin-top: 15px;
 }
 
 #princ-home {
-    width: 1347px;
+    width: 1362px;
     height: 550px;
     position: absolute;
 }
@@ -382,7 +409,7 @@ section .s1 {
     border: 2px solid blue;
     margin-top: 7%;
     height: 550px;
-    width: 1349px;
+    width: 1362px;
 
 }
 
@@ -428,7 +455,7 @@ section .s1 {
 }
 
 .bg-news {
-    width: 1362px;
+    width: 1350px;
     height: 450px;
     border: 2px solid #0617fdab;
 }
