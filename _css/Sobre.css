@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../_fonts/static/RobotoCondensed-Regular.ttf');
+
+    font-family: 'Source_Sans_3-Light';
+    src: url('../_fonts/Source_Sans_3/static/SourceSans3-Light.ttf');
+
+    font-family: 'Source_Sans_3-Regular';
+    src: url('../_fonts/Source_Sans_3/static/SourceSans3-Regular.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source_Sans_3-Regular';
+}
+
+h1 {
+    text-align: center;
+     color: #ffffff; 
+     background-color: blue;
+     width: 100%;
+     height: 25%;
+     font-size: 38px;
+     padding-top: 2.5%;
+}
+
+h1 a {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+    padding-top: 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff3131;
+    transition: 0.4s;
+}
+
+p {
+    padding-top: 2px;
+    position: absolute;
+}
+
+.p02 {
+    margin-top: 25%;
+}
+
+#Sobre-img-01 {
+    margin-top: 9%;
+    width: 70%;
+    height: 80%;
+    margin-left: 10.5%;
+}
+
+.text-box {
+    width: 500px;
+    position: absolute;
+    left: 36%;
+    top: 85%;
+    transform: translate(-85%, -38%);
+}
+
+.lista-sobre-st1 {
+    margin-top: 75%;
+    position: absolute;
+}
+
+.lista-sobre-st2 {
+    margin-top: 79%;
+    position: absolute;
+}
+
+.lista-sobre-st3 {
+    margin-top: 83%;
+    position: absolute;
+}
+
+.lista-sobre-st4 {
+    margin-top: 87%;
+    position: absolute;
+}
+.lista-sobre-st5 {
+    margin-top: 91%;
+    position: absolute;
+}
+
+.lista-sobre-st6 {
+    margin-top: 95%;
+    position: absolute;
+}
+
+.lista-sobre-st7 {
+    margin-top: 99%;
+    position: absolute;
+}
+
+.lista-sobre-st8 {
+    margin-top: 103%;
+    position: absolute;
+}
+
+.lista-sobre-st9 {
+    margin-top: 107%;
+    position: absolute;
+}
+
+.img-senai-phb {
+    margin-top: 100%;
+    height: 100%;
+}
+
+

@@ -13,6 +13,8 @@ body {
     width: 100vw;
     font-family: 'Roboto', sans-serif;
     background-color: #eff2fa;
+    min-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -149,6 +151,7 @@ body {
 .menu-fale-conosco a:hover{
     color: #fff;
     background-color: #cf0b0b;
+    transition: 0.5s;
 }
 
 .fale-conosco {
@@ -208,6 +211,7 @@ body {
 
 .nav:hover {
     background-color: #0d60fa;
+    transition: 0.5s;
 }
 
 
@@ -262,6 +266,12 @@ input#circulo05:checked ~ .s1 {
     color: #051a59;
     font-family: Roboto;
     font-size: 45px;
+}
+
+.bg-news {
+    width: 95%;
+    height: auto;
+    border: 2px solid #0617fdab;
 }
 
 .teste-botao {
@@ -501,15 +511,44 @@ section .s1 {
 #informatica-sobre {
     position: absolute;
     color: #fff;
-    margin-left: 8%;
+    margin-left: 3%;
     margin-top: 26%;
 }
 
 #informatica-saiba-mais {
     position: absolute;
     color: #fff;
-    margin-left: 2%;
+    margin-left: 3%;
     margin-top: 30%;
+}
+
+#administ-sobre {
+    position: absolute;
+    color: #fff;
+    margin-left: 38%;
+    margin-top: 26%;
+} 
+
+#administ-saiba-mais {
+    position: absolute;
+    color: #fff;
+    margin-left: 38%;
+    margin-top: 30%;
+}
+
+#logistica-sobre {
+    position: absolute;
+    color: #fff;
+    margin-left: 73%;
+    margin-top: 26%;
+}
+
+#logistica-saiba-mais {
+    position: absolute;
+    color: #fff;
+    margin-left: 73%;
+    margin-top: 30%;
+
 }
 
 .base-home {
@@ -521,8 +560,3 @@ section .s1 {
     height: auto;
 }
 
-.bg-news {
-    width: 100%;
-    height: auto;
-    border: 2px solid #0617fdab;
-}
