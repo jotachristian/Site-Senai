@@ -23,6 +23,7 @@
 
 body {
     font-family: 'Source_Sans_3-Regular';
+    overflow-x: hidden;
 }
 
 h1 {
@@ -48,6 +49,20 @@ a:hover {
     transition: 0.4s;
 }
 
+#sobre-menu {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+    padding-top: 2px;
+    text-decoration: none;
+    border-top: 4px solid #ff3131 !important;
+}
+
+#sobre-menu:hover {
+    color: #ff3131;
+    transition: 0.4s;
+}
+
 p {
     padding-top: 2px;
     position: absolute;
@@ -60,7 +75,7 @@ p {
 #Sobre-img-01 {
     margin-top: 9%;
     width: 70%;
-    height: 80%;
+    height: 90%;
     margin-left: 10.5%;
 }
 
@@ -118,7 +133,9 @@ p {
 
 .img-senai-phb {
     margin-top: 100%;
-    height: 100%;
+    height: 110%;
+    width: 90%;
+    margin-left: 4%;
 }
 
 

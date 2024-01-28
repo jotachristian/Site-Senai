@@ -17,6 +17,8 @@ body {
     overflow-x: hidden;
 }
 
+/* Responsividade do Site*/
+
 
 @media screen and (max-width: 500px) {
     .menu-nav {
@@ -110,12 +112,13 @@ body {
     }
 }
 
+/* Imagem do Topo do Site - 01*/
 
 .img-top {
     width: 100%;
     height: auto;
 }
-
+/* Menu Lateral - 02*/
 .menu-top {
     height: 8%;
     width: 100%;
@@ -126,8 +129,8 @@ body {
 
 .menu-top2 {
     color: #fff;
-    padding-left: 2%;
-    padding-top: 2%;
+    padding-left: 7%;
+    padding-top: 3%;
     text-align: left;
     margin-left: 20px;
     position: absolute;
@@ -137,9 +140,10 @@ body {
 
 .menu-top2 a {
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     padding: 20px 14px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .menu-top2 a:hover {
@@ -148,24 +152,19 @@ body {
 
 }
 
-.menu-fale-conosco a:hover{
-    color: #fff;
-    background-color: #cf0b0b;
-    transition: 0.5s;
-}
 
 .fale-conosco {
     background-color: #ff3131;
-    width: 10%;
+    width: 13%;
+    height: 7%;
     margin-top: 2%;
     border-radius: 25px;
-    padding-bottom: 5px;
     margin-left: 75%;
-    padding-left: 9px;
-    padding-right: 14px;
+    padding-left: 1%;
+    padding-top: 0.5%;
     position: absolute;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -173,21 +172,17 @@ body {
     border: none;
     background-color: #0151ff;
     color: #fff;
+    transition: 0.3s;
 }
 
-.animadas {
-    height: 520px;
-    width: 935px;
-    border-radius: 20px;
-}
-
+/* Slideshow - 03*/
 .imagens-header {
     height: auto;
     width: 60%;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
-    left: 51%;
+    left: 50%;
     top: 70%;
     transform: translate(-50%, -50%);
 }
@@ -255,23 +250,6 @@ input#circulo04:checked ~ .s1 {
 
 input#circulo05:checked ~ .s1 {
     margin-left: -80%;
-}
-
-.teste-h1 {
-    margin-top: 55%;
-    margin-left: 44%;
-    text-align: center;
-    height: 40px;
-    width: 7%;
-    color: #051a59;
-    font-family: Roboto;
-    font-size: 45px;
-}
-
-.bg-news {
-    width: 95%;
-    height: auto;
-    border: 2px solid #0617fdab;
 }
 
 .teste-botao {
@@ -355,10 +333,24 @@ input#circulo05:checked ~ .s1 {
     background-color: #5a4232;
 }
 
-section .s1 {
-    position: absolute;
+/* Área de Notícias 04*/
+
+
+.Noticias-h1 {
+    margin-top: 55%;
+    margin-left: 44%;
+    text-align: center;
+    height: 40px;
+    width: 7%;
+    color: #051a59;
+    font-family: Roboto;
+    font-size: 45px;
+}
+
+.bg-news {
+    width: 98.45%;
     height: auto;
-    width: 100%;
+    border: 2px solid #0617fdab;
 }
 
 .div-n1 {
@@ -366,7 +358,6 @@ section .s1 {
     position: absolute;
     border: solid #051a59;
     margin-left: 25px;
-    margin-top: 68px;
     width: 330px;
     height: 299px;
     padding-left: 30px;
@@ -391,16 +382,15 @@ section .s1 {
     color: #2701ff;
 }
 
-
+/*Segunda Div */
 .div-n2 {
     margin-top: 50px;
     position: absolute;
     border: solid #051a59;
-    margin-left: 500px;
-    margin-top: 68px;
+    margin-left: 483px;
     width: 330px;
     height: 299px;
-    padding-left: 45px;
+    padding-left: 35px;
     padding-top: 40px;
     padding-right: 15px;
 }
@@ -421,17 +411,17 @@ section .s1 {
     color: #2701ff;
 }
 
+/*Terceira Div */
 .div-n3 {
     margin-top: 50px;
     position: absolute;
     border: solid #051a59;
-    margin-left: 930px;
-    margin-top: 68px;
+    margin-left: 940px;
     width: 330px;
     height: 299px;
-    padding-left: 45px;
+    padding-left: 30px;
     padding-top: 40px;
-    padding-right: 25px;
+    padding-right: 15px;
 }
 
 #img-n3{
@@ -451,6 +441,22 @@ section .s1 {
     color:#2701ff
 }
 
+/* Área de Cursos 05*/
+
+#princ-home {
+    width: 1345px;
+    height: 1100px;
+    position: absolute;
+}
+
+.s2 {
+    border: 2px solid blue;
+    margin-top: 7%;
+    height: 1100px;
+    width: 1345px;
+
+}
+
 .cursos-home {
     margin-top: 20%;
     margin-right: 3px;
@@ -467,12 +473,6 @@ section .s1 {
     margin-bottom: 15%;margin-top: 15px;
 }
 
-#princ-home {
-    width: 1362px;
-    height: 550px;
-    position: absolute;
-}
-
 .tec-info {
     position: absolute;
     margin-top: 6%;
@@ -482,13 +482,7 @@ section .s1 {
     border-radius: 20px;
 }
 
-.s2 {
-    border: 2px solid blue;
-    margin-top: 7%;
-    height: 550px;
-    width: 1362px;
 
-}
 
 .tec-adm {
     position: absolute;
@@ -551,12 +545,11 @@ section .s1 {
 
 }
 
-.base-home {
-    margin-top: 40%;
-}
+/* Área Final - 06*/
 
 .bg-final {
     width: 100%;
     height: auto;
+    margin-top: 40%;
 }
 
