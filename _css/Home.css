@@ -581,7 +581,7 @@ input#circulo05:checked ~ .s1 {
     border-radius: 25px;
 }
 .administ-botao:hover {
-    background-color: #ff0000;
+    background-color: #7a0000;
     transition: 0.3s;
 }
 
@@ -646,9 +646,64 @@ input#circulo05:checked ~ .s1 {
 
 /* Área Final - 06*/
 
-.bg-final {
-    width: 100%;
-    height: auto;
-    margin-top: 40%;
+
+.rodape-do-site h1 {
+    font-size: 95px;
+    color: white;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.rodape-do-site {
+    width: 98.3%;
+    height: 290px;
+    border: solid #012eb8;
+    background: rgb(2,0,36);
+    background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(9,9,126,1) 33%, rgba(0,212,255,1) 100%);
+}
+
+
+#Termos-de-uso {
+    color: #ffffffbb;
+    margin-left: 4%;
+    position: absolute;
+    margin-top: -7%;
+    text-decoration: none;
+} 
+
+#Termos-de-uso :hover {
+    color: #ff3131d0;
+}
+
+
+#DCMA {
+    color: #ffffffbb;
+    margin-left: 13%;
+    position: absolute;
+    text-decoration: none;
+    margin-top: -7%;
+}
+
+#DCMA :hover {
+    color: #ff3131d0;
+}
+
+#Contato {
+    color: #ffffffbb;
+    margin-left: 18%;
+    position: absolute;
+    margin-top: -7%;
+    text-decoration: none;
+}
+
+#Contato :hover {
+    color: #ff3131d0;
+}
+
+.direitos {
+    color: #fff;
+    margin-left: 4%;
+    margin-top: -2%;
+    position: absolute;
 }
 
