@@ -476,73 +476,172 @@ input#circulo05:checked ~ .s1 {
 .tec-info {
     position: absolute;
     margin-top: 6%;
-    width: 417px;
-    height: 256px;
+    width: 410px;
+    height: 250px;
     margin-left: 19px;
-    border-radius: 20px;
-}
-
-
-
-.tec-adm {
-    position: absolute;
-    margin-top: 6%;
-    width: 416px;
-    height: 255px;
-    margin-left: 472px;
-    border-radius: 20px;
-}
-
-.tec-log {
-    position: absolute;
-    margin-top: 6%;
-    width: 416px;
-    height: 255px;
-    margin-left: 925px;
     border-radius: 20px;
 }
 
 #informatica-sobre {
     position: absolute;
     color: #fff;
-    margin-left: 3%;
+    margin-left: 2.5%;
     margin-top: 26%;
 }
 
 #informatica-saiba-mais {
     position: absolute;
     color: #fff;
-    margin-left: 3%;
+    margin-left: 2.5%;
     margin-top: 30%;
 }
+
+#informatica-cham {
+    position: absolute;
+    padding-left: 1%;
+    padding-top: 40%;
+}
+
+#informatica-cham2 {
+    position: absolute;
+    padding-left: 1%;
+    padding-top: 55%;
+}
+
+.informatica-botao {
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 72%;
+    background-color: #38b6ff;
+    color: #fff;
+    font-family: Roboto;
+    font-size: larger;
+    text-decoration: none;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.informatica-botao:hover {
+    background-color: #152a40;
+    transition: 0.3s;
+}
+
+.tec-adm {
+    position: absolute;
+    margin-top: 6%;
+    width: 410px;
+    height: 250px;
+    margin-left: 34.7%;
+    border-radius: 20px;
+}
+
 
 #administ-sobre {
     position: absolute;
     color: #fff;
-    margin-left: 38%;
+    margin-left: 41%;
     margin-top: 26%;
 } 
 
 #administ-saiba-mais {
     position: absolute;
     color: #fff;
-    margin-left: 38%;
+    margin-left: 36%;
     margin-top: 30%;
 }
+
+#administ-cham {
+    position: absolute;
+    padding-left: 34%;
+    padding-top: 40%;
+}
+
+#administ-cham2 {
+    position: absolute;
+    padding-left: 34%;
+    padding-top: 55%;
+}
+
+.administ-botao {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: 72%;
+    background-color: #fc3438;
+    color: #fff;
+    font-family: Roboto;
+    font-size: larger;
+    text-decoration: none;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+.administ-botao:hover {
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+
+
+.tec-log {
+    position: absolute;
+    padding-top: 6%;
+    width: 410px;
+    height: 250px;
+    margin-left: 68%;
+    border-radius: 20px;
+}
+
 
 #logistica-sobre {
     position: absolute;
     color: #fff;
-    margin-left: 73%;
-    margin-top: 26%;
+    margin-left: 76%;
+    padding-top: 25%;
 }
 
 #logistica-saiba-mais {
     position: absolute;
     color: #fff;
-    margin-left: 73%;
-    margin-top: 30%;
+    margin-left: 70%;
+    padding-top: 28.5%;
 
+}
+
+#logistica-cham {
+    position: absolute;
+    padding-left: 66%;
+    padding-top: 40%;
+}
+
+#logistica-cham2 {
+    position: absolute;
+    padding-left: 66%;
+    padding-top: 55%;
+}
+
+.logistica-botao {
+    position: absolute;
+    margin-left: 79.5%;
+    margin-top: 72%;
+    background-color: #ffc444;
+    color: #fff;
+    font-family: Roboto;
+    font-size: larger;
+    text-decoration: none;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.logistica-botao:hover {
+    background-color: #bca444;
+    transition: 0.3s;
 }
 
 /* Área Final - 06*/
