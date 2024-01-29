@@ -36,7 +36,7 @@ header h1 {
      padding-top: 2.5%;
 }
 
-h1 a {
+#Inicio-menu {
     color: #fff;
     font-size: 20px;
     margin: 5px;
@@ -44,10 +44,24 @@ h1 a {
     text-decoration: none;
 }
 
-a:hover {
+#Inicio-menu:hover {
     color: #ff3131;
     transition: 0.4s;
 }
+
+#Sobre-menu {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+    padding-top: 2px;
+    text-decoration: none;
+}
+
+#Sobre-menu:hover {
+    color: #ff3131;
+    transition: 0.4s;
+}
+
 
 #Cursos-menu {
     color: #fff;
@@ -57,6 +71,11 @@ a:hover {
     text-decoration: none;
     border-top: 4px solid #ff3131 !important;
 }
+#Cursos-menu:hover {
+    color: #ff3131;
+    transition: 0.4s;
+}
+
 
 p {
     text-align: justify;
@@ -67,6 +86,7 @@ p {
 .Cursos-pai {
     max-width: 1200vh;
     margin: 0px auto;
+    margin-top: -25%;
 }
 
 
@@ -80,35 +100,91 @@ p {
 
 
 #h3-ti {
+    color: blue; 
+    width: 100%;
+    height: 90%;
+    text-decoration: none;
     padding-left: 24%;
+}
+
+#h3-ti:hover {
+    color: #ff3131;
 }
 
 #h3-adm {
     padding-left: 23%;
+    color: blue;
+    width: 100%;
+    height: 90%;
+}
+
+
+#h3-adm:hover {
+    color: #ff3131;
 }
 
 #h3-log {
     padding-left: 30%;
+    color: blue;
+    width: 100%;
+    height: 90%;
+}
+#h3-log:hover {
+    color: #ff3131;
 }
 
 #h3-edif {
     padding-left: 23%;
+    color: blue;
+    width: 100%;
+    height: 90%;
+}
+
+#h3-edif:hover {
+    color: #ff3131;
 }
 
 #h3-wd {
-    padding-left: 23%;
+    padding-left: 37%;
+    color: blue;
+    width: 100%;
+    height: 90%;
+}
+
+#h3-wd:hover {
+    color: #ff3131;
 }
 
 #h3-ped {
-    padding-left: 23%;
+    padding-left: 43%;
+    color: blue;
+    width: 100%;
+    height: 90%;
+}
+
+#h3-ped:hover {
+    color: #ff3131;
 }
 
 #h3-excel {
-    padding-left: 23%;
+    padding-left: 32%;
+    color: blue;
+    width: 100%;
+    height: 90%;
+}
+
+#h3-excel:hover {
+    color: #ff3131;
 }
 
 #h3-conf {
-    padding-left: 23%;
+    padding-left: 36%; color: blue;
+    width: 100%;
+    height: 90%;
+}
+
+#h3-conf:hover {
+    color: #ff3131;
 }
 
 
@@ -119,6 +195,7 @@ section img {
    width: 100%;
    height: 100%;
    border-radius: 20px;
+   align-items: center;
 }
 
 
