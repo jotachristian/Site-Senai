@@ -155,8 +155,8 @@ body {
 
 .fale-conosco {
     background-color: #ff3131;
-    width: 13%;
-    height: 7%;
+    width: 10%;
+    height: 5%;
     margin-top: 2%;
     border-radius: 25px;
     margin-left: 75%;
@@ -338,7 +338,7 @@ input#circulo05:checked ~ .s1 {
 
 .Noticias-h1 {
     margin-top: 55%;
-    margin-left: 44%;
+    margin-left: 45%;
     text-align: center;
     height: 40px;
     width: 7%;
@@ -348,18 +348,18 @@ input#circulo05:checked ~ .s1 {
 }
 
 .bg-news {
-    width: 98.45%;
+    width: 99%;
     height: auto;
     border: 2px solid #0617fdab;
 }
 
 .div-n1 {
-    margin-top: 50px;
+    margin-top: 5%;
     position: absolute;
     border: solid #051a59;
-    margin-left: 25px;
-    width: 330px;
-    height: 299px;
+    margin-left: 3%;
+    width: 20%;
+    height: 40%;
     padding-left: 30px;
     padding-top: 40px;
     padding-right: 15px;
@@ -367,13 +367,13 @@ input#circulo05:checked ~ .s1 {
 
 #img-n1{
     position: absolute;
-    width: 290px;
-    height: 170px;
+    width: 85%;
+    height: 50%;
 }
 
 .texto-n1 {
     position: absolute;
-    padding-top: 48%;
+    padding-top: 55%;
     text-decoration: none;
     color: #000;
 }
@@ -384,12 +384,13 @@ input#circulo05:checked ~ .s1 {
 
 /*Segunda Div */
 .div-n2 {
-    margin-top: 50px;
+    margin-top: 5%;
     position: absolute;
     border: solid #051a59;
-    margin-left: 483px;
-    width: 330px;
-    height: 299px;
+    margin-left: 38%;
+    display: inline-block;
+    width: 20%;
+    height: 40%;
     padding-left: 35px;
     padding-top: 40px;
     padding-right: 15px;
@@ -397,12 +398,12 @@ input#circulo05:checked ~ .s1 {
 
 #img-n2{
     position: absolute;
-    width: 292px;
-    height: 172px;
+    width: 85%;
+    height: 50%;
 }
 .texto-n2 {
     position: absolute;
-    padding-top: 45%;
+    padding-top: 55%;
     text-decoration: none;
     color: #000;
 }
@@ -413,26 +414,26 @@ input#circulo05:checked ~ .s1 {
 
 /*Terceira Div */
 .div-n3 {
-    margin-top: 50px;
+    margin-top: 5%;
     position: absolute;
     border: solid #051a59;
-    margin-left: 940px;
-    width: 330px;
-    height: 299px;
-    padding-left: 30px;
+    margin-left: 72%;
+    width: 20%;
+    height: 40%;
+    padding-left: 35px;
     padding-top: 40px;
     padding-right: 15px;
 }
 
 #img-n3{
     position: absolute;
-    width: 290px;
-    height: 170px;
+    width: 85%;
+    height: 50%;
 }
 
 .texto-n3 {
     position: absolute;
-    padding-top: 48%;
+    padding-top: 55%;
     text-decoration: none;
     color:#000
 }
@@ -444,16 +445,17 @@ input#circulo05:checked ~ .s1 {
 /* Área de Cursos 05*/
 
 #princ-home {
-    width: 1345px;
-    height: 1100px;
+    width: 99.8%;
+    height: 150%;
     position: absolute;
 }
 
 .s2 {
     border: 2px solid blue;
     margin-top: 7%;
-    height: 1100px;
-    width: 1345px;
+    height: 150%;
+    width: 99%;
+    margin-bottom: 27%;
 
 }
 
@@ -464,63 +466,63 @@ input#circulo05:checked ~ .s1 {
     text-align: center;
     color: #051a59;
     font-size: 45px;
+    margin-left: -2%;
 }
 
 #seta-home {
-    margin-left: 47.2%;
+    margin-left: 47%;
     width: 70px;
     height: 70px;
-    margin-bottom: 15%;margin-top: 15px;
+    margin-bottom: 15%;
+    margin-top: 15px;
+}
+
+.Tec-curso {
+    border: 2px solid #0151ff;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: 2.5%;
+    margin-top: 15%;
 }
 
 .tec-info {
-    position: absolute;
-    margin-top: 6%;
-    width: 410px;
+    width: 70%;
     height: 250px;
-    margin-left: 19px;
     border-radius: 20px;
+    margin-left: 14%;
+    border: 2px solid #fff;
 }
 
 #informatica-sobre {
-    position: absolute;
     color: #fff;
-    margin-left: 2.5%;
-    margin-top: 26%;
+    width: 70%;
+    margin-left: 17%;
 }
 
 #informatica-saiba-mais {
-    position: absolute;
     color: #fff;
-    margin-left: 2.5%;
-    margin-top: 30%;
+    width: 70%;
+    margin-left: 17%;
 }
 
 #informatica-cham {
-    position: absolute;
-    padding-left: 1%;
-    padding-top: 40%;
+    margin-left: 8%;
 }
 
 #informatica-cham2 {
-    position: absolute;
-    padding-left: 1%;
-    padding-top: 55%;
+    margin-left: 8%;
 }
 
 .informatica-botao {
-    position: absolute;
-    margin-left: 14%;
-    margin-top: 72%;
     background-color: #38b6ff;
     color: #fff;
     font-family: Roboto;
     font-size: larger;
     text-decoration: none;
-    height: 35px;
-    width: 150px;
-    text-align: center;
-    padding-top: 10px;
+    height: 35%;
+    width: 500%;
+    margin-left: 40.5%;
     border-radius: 25px;
 }
 
@@ -534,7 +536,7 @@ input#circulo05:checked ~ .s1 {
     margin-top: 6%;
     width: 410px;
     height: 250px;
-    margin-left: 34.7%;
+    margin-left: 37%;
     border-radius: 20px;
 }
 
@@ -591,7 +593,7 @@ input#circulo05:checked ~ .s1 {
     padding-top: 6%;
     width: 410px;
     height: 250px;
-    margin-left: 68%;
+    margin-left: 71%;
     border-radius: 20px;
 }
 
@@ -651,7 +653,7 @@ input#circulo05:checked ~ .s1 {
     font-size: 95px;
     color: white;
     margin-left: 4%;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .rodape-do-site {
@@ -667,7 +669,7 @@ input#circulo05:checked ~ .s1 {
     color: #ffffffbb;
     margin-left: 4%;
     position: absolute;
-    margin-top: -7%;
+    margin-top: -3%;
     text-decoration: none;
 } 
 
@@ -681,7 +683,7 @@ input#circulo05:checked ~ .s1 {
     margin-left: 13%;
     position: absolute;
     text-decoration: none;
-    margin-top: -7%;
+    margin-top: -3%;
 }
 
 #DCMA :hover {
@@ -692,7 +694,7 @@ input#circulo05:checked ~ .s1 {
     color: #ffffffbb;
     margin-left: 18%;
     position: absolute;
-    margin-top: -7%;
+    margin-top: -3%;
     text-decoration: none;
 }
 
@@ -703,7 +705,7 @@ input#circulo05:checked ~ .s1 {
 .direitos {
     color: #fff;
     margin-left: 4%;
-    margin-top: -2%;
+    margin-top: 1%;
     position: absolute;
 }
 

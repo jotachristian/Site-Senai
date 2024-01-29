@@ -23,7 +23,7 @@
 
 body {
     font-family: 'Source_Sans_3-Regular';
-    overflow-x: hidden;
+   
 }
 
 header h1 {
@@ -79,14 +79,15 @@ header h1 {
 
 p {
     text-align: justify;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-top: -40%;
+    font-size: 20px;
 }
 
 .Cursos-pai {
     max-width: 1200vh;
     margin: 0px auto;
-    margin-top: -25%;
+    margin-top: -12%;
 }
 
 
