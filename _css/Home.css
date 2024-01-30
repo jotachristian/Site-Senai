@@ -454,19 +454,14 @@ input#circulo05:checked ~ .s1 {
     border: 2px solid blue;
     margin-top: 7%;
     height: 150%;
-    width: 99%;
+    width: 99.8%;
     margin-bottom: 27%;
 
 }
 
-.cursos-home {
-    margin-top: 20%;
-    margin-right: 3px;
-    margin-bottom: 7px;
-    text-align: center;
+#cursos-home {
     color: #051a59;
     font-size: 45px;
-    margin-left: -2%;
 }
 
 #seta-home {
@@ -478,7 +473,6 @@ input#circulo05:checked ~ .s1 {
 }
 
 .Tec-curso {
-    border: 2px solid #0151ff;
     position: absolute;
     width: 30%;
     height: 100%;
@@ -516,14 +510,18 @@ input#circulo05:checked ~ .s1 {
 
 .informatica-botao {
     background-color: #38b6ff;
+    position: absolute;
     color: #fff;
     font-family: Roboto;
     font-size: larger;
     text-decoration: none;
-    height: 35%;
-    width: 500%;
-    margin-left: 40.5%;
-    border-radius: 25px;
+    height: 4%;
+    width: 30%;
+    padding-top: 3%;
+    margin-left: -54%;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 35%;
 }
 
 .informatica-botao:hover {
@@ -531,114 +529,116 @@ input#circulo05:checked ~ .s1 {
     transition: 0.3s;
 }
 
-.tec-adm {
+.Tec-curso2 {
     position: absolute;
-    margin-top: 6%;
-    width: 410px;
+    width: 30%;
+    height: 100%;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.tec-adm {
+    width: 70%;
     height: 250px;
-    margin-left: 37%;
     border-radius: 20px;
+    margin-left: 14%;
+    border: 2px solid #fff;
 }
 
 
 #administ-sobre {
-    position: absolute;
     color: #fff;
-    margin-left: 41%;
-    margin-top: 26%;
+    width: 70%;
+    margin-left: 25%;
 } 
 
 #administ-saiba-mais {
-    position: absolute;
     color: #fff;
-    margin-left: 36%;
-    margin-top: 30%;
+    width: 70%;
+    margin-left: 17%;
 }
 
 #administ-cham {
-    position: absolute;
-    padding-left: 34%;
-    padding-top: 40%;
+    margin-left: 8%;
 }
 
 #administ-cham2 {
-    position: absolute;
-    padding-left: 34%;
-    padding-top: 55%;
+    margin-left: 8%;
 }
 
 .administ-botao {
-    position: absolute;
-    margin-left: 47%;
-    margin-top: 72%;
     background-color: #fc3438;
+    position: absolute;
     color: #fff;
     font-family: Roboto;
     font-size: larger;
     text-decoration: none;
-    height: 35px;
-    width: 150px;
+    height: 4%;
+    width: 30%;
+    padding-top: 3%;
+    margin-left: -54%;
     text-align: center;
-    padding-top: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
+    margin-top: 35%;
 }
 .administ-botao:hover {
     background-color: #7a0000;
     transition: 0.3s;
 }
 
+.Tec-curso3 {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: 67.5%;
+    margin-top: 15%;
+}
+
 
 .tec-log {
-    position: absolute;
-    padding-top: 6%;
-    width: 410px;
+    width: 70%;
     height: 250px;
-    margin-left: 71%;
     border-radius: 20px;
+    margin-left: 14%;
+    border: 2px solid #fff;
 }
 
 
 #logistica-sobre {
-    position: absolute;
     color: #fff;
-    margin-left: 76%;
-    padding-top: 25%;
+    width: 70%;
+    margin-left: 32%;
 }
 
 #logistica-saiba-mais {
-    position: absolute;
     color: #fff;
-    margin-left: 70%;
-    padding-top: 28.5%;
+    width: 70%;
+    margin-left: 17%;
 
 }
 
 #logistica-cham {
-    position: absolute;
-    padding-left: 66%;
-    padding-top: 40%;
+    margin-left: 8%;
 }
 
 #logistica-cham2 {
-    position: absolute;
-    padding-left: 66%;
-    padding-top: 55%;
+    margin-left: 8%;
 }
 
 .logistica-botao {
-    position: absolute;
-    margin-left: 79.5%;
-    margin-top: 72%;
     background-color: #ffc444;
+    position: absolute;
     color: #fff;
     font-family: Roboto;
     font-size: larger;
     text-decoration: none;
-    height: 35px;
-    width: 150px;
+    height: 4%;
+    width: 30%;
+    padding-top: 3%;
+    margin-left: -54%;
     text-align: center;
-    padding-top: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
+    margin-top: 37%;
 }
 
 .logistica-botao:hover {
