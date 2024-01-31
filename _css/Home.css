@@ -459,13 +459,15 @@ input#circulo05:checked ~ .s1 {
 
 }
 
-#cursos-home {
+#Cursos-home {
     color: #051a59;
     font-size: 45px;
+    margin-left: 45%;
+    margin-top: 10%;
 }
 
 #seta-home {
-    margin-left: 47%;
+    margin-left: 46.5%;
     width: 70px;
     height: 70px;
     margin-bottom: 15%;
